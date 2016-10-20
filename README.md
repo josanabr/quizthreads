@@ -26,6 +26,8 @@ Cómo validar que mi código esta bien?
 
 Debería aparecer la palabra `OK` si todo esta bien.
 
+**Cuando este listo para correr la version final, _comente_ la línea que `#define TEST` y compile nuevamente.**
+
 Sumas de Riemann
 ================
 Para este problema usted debe hacer su implementación de la suma de Riemann en un archivo llamado `threaded_riemann.c`. 
@@ -37,3 +39,15 @@ Su archivo debe contener,
 * Su implementación de la función que ejecuta el hilo debe invocar a la función `function` definida en el archivo `function.h` y que recibe como parámetro un `double` y devuelve un `double`. 
 **Recuerde que esta es la función a la que se le debe calcular el área bajo la curva.**
 * Usted debe subir su código en un repositorio de github.
+
+Cómo compilar el código?
+------------------------
+Para compilar su código ejecute el comando 
+```
+make threaded_riemann
+```
+ y ejecute su código 
+```
+./threaded_riemann
+```
+
