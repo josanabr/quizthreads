@@ -51,3 +51,15 @@ make threaded_riemann
 ./threaded_riemann
 ```
 
+Una implementación de las sumas de Riemann
+------------------------------------------
+En el archivo ``my_riemann.c` pueden encontrar una implementación de las sumas de Riemann. 
+Para ver funcionando este código usted debe
+```
+make my_riemann
+```
+y ejecuta el código
+```
+./my_riemann
+```
+En este código, además de ver una implementación del algoritmo de Riemann, también puede observar la forma como se usa/invoca la función `function`.
